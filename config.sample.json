@@ -1,0 +1,22 @@
+{
+  "amazon": {
+    "username": "your-amazon@email.com",
+    "password": "your-amazon-password"
+  },
+  "server": {
+    "host": "0.0.0.0",
+    "port": 2539,
+    "screenshot": "captcha.png"
+  },
+  "casper": {
+    "verbose": true,
+    "logLevel": "debug",
+    "pageSettings": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
+    },
+    "viewportSize": {
+      "width": 1280,
+      "height": 720
+    }
+  }
+}
