@@ -15,7 +15,11 @@ via the server.
 * [PhantomJS] (tested with PhantomJS v2.1 on macOS Sierra)
 * [CasperJS] (tested with CasperJS v1.1.4 on macOS Sierra)
 
-## Installation
+Or if using NodeJS
+
+* [NodeJS](https://nodejs.org/)
+
+## Installation not using NodeJS
 
 1. Clone this repository to your computer
 1. Download and install [PhantomJS]
@@ -26,6 +30,17 @@ via the server.
 1. From the repo directory, run: `$ casperjs --cookies-file=cookies.txt alexa.js`
 1. Open your browser and navigate to <http://127.0.0.1:2539/> to see the JSON
    dump of your Alexa devices
+
+## Installation using NodeJS
+
+1. Clone this repository to your computer
+1. Browse to the cloned repository on your computer
+1. Copy/rename `config.sample.json` to `config.json`
+1. Open `config.json` and set enter your Amazon username and password
+1. From the repo directory, run: `npm install` and then `npm run server`
+1. Open your browser and navigate to <http://127.0.0.1:2539/> to see the JSON
+   dump of your Alexa devices
+
 
 ## Donations
 
