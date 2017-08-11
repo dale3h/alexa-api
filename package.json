@@ -1,0 +1,15 @@
+{
+  "name": "alexa-api",
+  "version": "0.1.0",
+  "description": "A local server to proxy API commands to Amazon Alexa",
+  "main": "alexa.js",
+  "scripts": {
+    "start": "casperjs --cookies-file=cookies.txt alexa.js"
+  },
+  "author": "Dale Higgs <@dale3h>",
+  "license": "MIT",
+  "dependencies": {
+    "casperjs": "^1.1.4",
+    "phantomjs": "^2.1.7"
+  }
+}
